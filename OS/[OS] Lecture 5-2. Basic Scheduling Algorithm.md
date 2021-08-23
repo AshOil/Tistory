@@ -147,7 +147,7 @@
 
 - 작업 (or 우선순위)별 별도의 ready Queue를 가짐 (여러개의 Queue를 갖는다.)
   - 최초 배정된 queue를 벗어나지 못함
-  - 각각의 queue는 자신만의 스케줄링 기법 사용
+  - **각각의 queue는 자신만의 스케줄링 기법 사용**
 - Queue 사이에는 우선순위 기반의 스케줄링 사용
   - E.g, Fixed-Priority Preemptive Schedling
 - 장점

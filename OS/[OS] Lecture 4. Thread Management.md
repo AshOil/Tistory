@@ -82,7 +82,7 @@
 2. 커널 수준 Thread (Kernel Threads)
    - OS (kernel)이 직접 관리
    - 커널 영역에서 스레드의 생성, 관리 수행
-     - Context switching 등 부하(Overhead)가 크다.
+     - Context switching 등 부하(Overhead)가 크다. // **사용자 수준과 비교시 !**
    - 커널이 각 스레드를 개별적으로 관리
      - 프로세스 내 스레드들이 병행 수행 가능
        - 하나의 스레드가 block상태가 되어도, 다른 스레드는 계속 작업 수행 가능
